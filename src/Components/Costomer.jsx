@@ -10,13 +10,13 @@ const Costomer = () => {
   const [getDate , setDate] =useState([])
 
   const Handleget = () =>{
-    axios.get("http://localhost:2009/get/Costomer") .then((res) =>{
+    axios.get("https://rdhi-backend-2.onrender.com/get/Costomer") .then((res) =>{
      setDate(res.data)
     })
   }
 
     const hanldelde =(id) =>{
-  axios.delete(`http://localhost:2009/delate/cosmers/${id}`).then(() =>{
+  axios.delete(`https://rdhi-backend-2.onrender.com/delate/cosmers/${id}`).then(() =>{
     alert("✅ Deleted successfully! ")
     navigate("/products/dashpot")
   })

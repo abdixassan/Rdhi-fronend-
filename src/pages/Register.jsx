@@ -17,7 +17,7 @@ const Register = () => {
 
        const handlepost = (e) =>{
         e.preventDefault()
-          axios.post("http://localhost:2009/create/Costomer",{
+          axios.post("https://rdhi-backend-2.onrender.com/create/Costomer",{
              name :name,
              email: email,
              phone :phone,

@@ -23,7 +23,7 @@ const usenaavigate = useNavigate()
 
     const handlepost =(e) =>{
         e.preventDefault()
-        axios.post("http://localhost:2009/realsate",formData).then(() =>{
+        axios.post("https://rdhi-backend-2.onrender.com/realsate",formData).then(() =>{
             alert("sucessed Add Product")
             usenaavigate("/products/dashpot")
             handlepost()

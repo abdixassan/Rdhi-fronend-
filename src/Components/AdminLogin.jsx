@@ -13,7 +13,7 @@ const AdminLogin = () => {
 
        const handlepost = (e) =>{
         e.preventDefault()
-          axios.post("http://localhost:2009/login/addmin",{
+          axios.post("https://rdhi-backend-2.onrender.com/login/addmin",{
           email: email,
           password:password,
             

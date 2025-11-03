@@ -14,14 +14,14 @@ const Viewcompleteproject = () => {
   
 
   const handleget = () =>{
-     axios.get("http://localhost:2009/read/completeproject").then((res) =>{
+     axios.get("https://rdhi-backend-2.onrender.com/read/completeproject").then((res) =>{
        setDate(res.data)
         // handleget()
      }) 
   }
 
   const hanldelde =(id) =>{
-  axios.delete(`http://localhost:2009/delate/completeproject/${id}`).then(() =>{
+  axios.delete(`https://rdhi-backend-2.onrender.com/delate/completeproject/${id}`).then(() =>{
     alert("✅ Deleted successfully! ")
         handleget()
   })
@@ -47,7 +47,7 @@ const Viewcompleteproject = () => {
          getDate.map((item) =>{
             return  <div className=' mt-7   rounded-lg  h-auto  p-7 shadow-2xl bg-slate-100 sm:hover:shadow-blue-600 transition-transform duration-300'>
            <div className='flex flex-wrap sm:flex-row flex-col  gap-4'>
-            <img className='w-52 h-40 rounded-lg' src={`http://localhost:2009/Allimage/${item.prImage}`} alt="" />                
+            <img className='w-52 h-40 rounded-lg' src={`https://rdhi-backend-2.onrender.com/Allimage/${item.prImage}`} alt="" />                
         <div>
 <h1 className='font-bold text-xl text-blue-600'>Complete projected</h1>
 <div className=''>

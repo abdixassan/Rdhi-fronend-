@@ -18,7 +18,7 @@ const AddOngoingproject = () => {
 
     const handlepost =(e) =>{
         e.preventDefault()
-        axios.post("http://localhost:2009/Ongoingproject",formData).then(() =>{
+        axios.post("https://rdhi-backend-2.onrender.com/Ongoingproject",formData).then(() =>{
           alert("sucessed Add Product")
           usenaavigate("/ViewOngoingproject")
           handlepost()

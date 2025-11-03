@@ -7,7 +7,6 @@ import Shop from "./pages/Shop"
 import Product from "./pages/Product"
 import Ourservice from "./pages/Ourservice"
 import Futures from "./pages/Futures"
-import Cart from "./pages/Cart"
 import Contact from "./pages/Contact"
 import Dashpot from "./Components/Dashpot"
 import Products from "./Components/Products"
@@ -68,9 +67,7 @@ function App() {
               <Route path="/ourservice" element={<Ourservice/>}/>
               <Route path="/futures" element={<Futures/>}/>
               <Route path="/GreenEnergy" element={<GreenEnergy/>}/>
-
-              <Route path="/cart" element={<Cart/>}/>
-              <Route path="/contact" element={<Contact/>}/>
+             <Route path="/contact" element={<Contact/>}/>
               <Route path="/Dashpot" element={<ProtactRouter><Dashpot/></ProtactRouter>}/>
               <Route path="/products/dashpot" element={ <ProtactRouter><Products/> </ProtactRouter>}/>
               <Route path="/Addprodudt/dashpot" element={ <ProtactRouter><Addproduct/></ProtactRouter>}/>

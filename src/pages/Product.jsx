@@ -7,7 +7,7 @@ const Product = () => {
 const [getpost ,setpost] =useState([])  
 
 const handleread = () =>{
-   axios.get("http://localhost:2009/read/realsate").then((res) =>{
+   axios.get("https://rdhi-backend-2.onrender.com/read/realsate").then((res) =>{
     setpost(res.data)
     handleread()
    })
@@ -46,7 +46,7 @@ useEffect(() =>{
 
                     return <div className='w-80 p-4 shadow-2xl bg-slate-200 rounded-lg hover:shadow-blue-500 mt-10'>
                 <div className='flex justify-center'>
-                 <img className='w-52 h-40 rounded-lg' src={`http://localhost:2009/Allimage/${item.prImage}`} alt="" />                
+                 <img className='w-52 h-40 rounded-lg' src={`https://rdhi-backend-2.onrender.com/Allimage/${item.prImage}`} alt="" />                
                   </div>
                 <h1 className='flex justify-center font-bold text-xl mt-4'>For Sale</h1>
                   <h1 className='text-center leading-relaxed max-w-2xl mx-auto mt-3 font-bold text-blue-500 text-xl'>

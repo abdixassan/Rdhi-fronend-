@@ -18,7 +18,7 @@ const Addcompleteproject = () => {
 
     const handlepost =(e) =>{
         e.preventDefault()
-        axios.post("http://localhost:2009/completeproject",formData).then(() =>{
+        axios.post("https://rdhi-backend-2.onrender.com/completeproject",formData).then(() =>{
           alert("sucessed Add Product")
           usenaavigate("/Viewcompleteproject")
           handlepost()

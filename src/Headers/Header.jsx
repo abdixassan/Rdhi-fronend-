@@ -97,7 +97,7 @@ const Header = () => {
 
       {/* Mobile Menu */}
       {open && (
-        <div className='md:hidden fixed top-16 left-0 w-60 h-[60vh] rounded-b-lg overflow-y-auto bg-slate-50 shadow-lg p-4 z-20 transition-transform duration-300 animate-none'>
+        <div className='md:hidden fixed top-16 left-0  rounded-b-lg overflow-y-auto bg-slate-50 shadow-lg p-4 z-20 transition-transform duration-300 animate-none'>
            <div >
             <Link to="/">
             Home 

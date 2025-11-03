@@ -1,0 +1,72 @@
+import React from "react";
+import { motion } from "framer-motion";
+import Home2 from "./Home2";
+import Home3 from "./Home3";
+import home5 from "../Images/urban-city-architecture.jpg"
+import {Link } from "react-router-dom"
+import Foter from "../Headers/Foter";
+
+const Home = () => {
+  return (
+    <div>
+      <div className="">
+        <div className="">
+          {/* Background Image */}
+          <img
+            className="h-[30rem] w-full  object-cover sm:object-center"
+            src={home5}
+            alt="City View"
+          />
+
+          {/* Overlay / Search Box */}
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+            className="absolute inset-x-0 bottom-0 flex justify-center"
+          >
+            <div className="flex flex-wrap justify-center bg-gray-300 shadow-xl w-full max-w-[60rem] p-4 rounded-lg gap-4 mb-6">
+              <motion.select
+                // whileHover={{ scale: 1.05 }}
+                className="bg-blue-500 rounded-lg p-3 outline-none text-white flex-1 min-w-[10rem]"
+              >
+                <option value="">Choose Area</option>
+                <option value="">Outside City</option>
+                <option value="">Inside City</option>
+              
+              </motion.select>
+
+              <motion.select
+                // whileHover={{ scale: 1.05 }}
+                className="bg-blue-500 rounded-lg p-3 outline-none text-white flex-1 min-w-[10rem]"
+              >
+                <option value="">Property Type</option>
+                <option value="">Apartment</option>
+                <option value="">Family Home</option>
+              </motion.select>
+
+              <motion.select
+                // whileHover={{ scale: 1.05 }}
+                className="bg-blue-500 rounded-lg p-3 outline-none text-white flex-1 min-w-[10rem]"
+              >
+                <option value="">Property House</option>
+                <option value="">Rent</option>
+                <option value="">Sale</option>
+              </motion.select>
+
+              <button className="bg-blue-500 text-white px-6 py-3 rounded-lg flex-1 min-w-[10rem]"
+              >
+              <Link to="/Shop">Find Now <i className="fa-solid fa-up-right-from-square "></i></Link>
+               </button>
+            </div>
+          </motion.div>
+        </div>
+      </div>
+       <Home2/>
+       <Home3/>
+       <Foter/>
+    </div>
+  );
+};
+
+export default Home;

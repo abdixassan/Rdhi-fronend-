@@ -25,7 +25,7 @@ const Home = () => {
             transition={{ duration: 1 }}
             className="sm:absolute sm:ml-[50%] sm:bottom-0 sm:flex sm:justify-center
                md:absolute md:ml-[50%] md:bottom-0 md:flex md:justify-center
-               lg:absolute lg:ml-[50%] lg:bottom-0 lg:flex lg:justify-center "
+               lg:absolute lg:ml-[70%] lg:bottom-0 lg:flex lg:justify-center "
           >
             <div className="flex flex-wrap justify-center bg-gray-300 shadow-xl w-full sm:max-w-[60rem] p-4 rounded-lg gap-4 mb-6">
               <motion.select

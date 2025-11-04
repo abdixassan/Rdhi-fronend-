@@ -79,7 +79,7 @@ const Home2 = () => {
       <div className='border border-blue-500 ml-2 '></div>
   </div>
   {/*  jjjjjj */}
-    <div className="flex flex-col sm:flex-row sm:justify-center sm:gap-10 mt-10 px-4">
+    <div className="flex flex-col sm:flex-row sm:justify-center sm:gap-10 mt-10 px-4 lg:w-full ">
       {/* Card A */}
       <motion.div
         initial={{ opacity: 0, y: 40 }}

@@ -121,7 +121,7 @@ const Header = () => {
             </p>
             {subOpen1 && (
               <div className='ml-4 border-l border-blue-300 pl-3'>
-               <Link to="/ourservice"><p className='py-1 hover:text-blue-500 cursor-pointer'>complete project</p> </Link>
+               <Link to="/completeproject"><p className='py-1 hover:text-blue-500 cursor-pointer'>complete project</p> </Link>
                <Link to="/Ongoingproject"><p className='py-1 hover:text-blue-500 cursor-pointer'>Ongoing project</p> </Link>
                <Link to="/About"><p className='py-1 hover:text-blue-500 cursor-pointer'>About RDHI</p> </Link>
                 <Link to="/AdminLogin"> <p className='py-1 hover:text-blue-500 cursor-pointer'>Admin Login</p> </Link>

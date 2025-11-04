@@ -31,10 +31,10 @@ const AdminLogin = () => {
   return (
     <div>
 
-    <div className='pt-56 w-full  bg-blue-500 bg-opacity-25 shadow-lg h-96 relative'>
+    <div className='pt-56 w-full  bg-blue-500 bg-opacity-25 shadow-lg h-60 relative'>
                   
                <div>
-                   <div className='absolute top-0  mt-48'>
+                   <div className='absolute top-0  mt-26'>
                     <button className='text-3xl ml-4 font-bold '>Admin Log-in</button>
                      <div className='flex gap-3 mt-4 text-xl '>
                       <h1 className='hover:text-blue-600 ml-5'> <i class="fa-solid fa-house text-[19px] text-blue-500"></i>

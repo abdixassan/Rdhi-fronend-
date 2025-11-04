@@ -9,7 +9,7 @@ const Futures = () => {
   return (
     <div>
         <div className=' w-full relative'>
-                         <img className='w-full h-96 object-cover' src={Aboutimg3} alt="" />
+                         <img className='w-full sm:h-96 sm:object-cover' src={Aboutimg3} alt="" />
                        <div>
                          
                           <div className='absolute top-0 text-white mt-48'>

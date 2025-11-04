@@ -13,9 +13,9 @@ const Shop = () => {
     <div>
 
         <div className='w-full relative'>
-                 <img className='w-full h-96 object-fill' src={ShopIMage} alt="" />
+                 <img className='w-full sm:h-96 sm:object-fill' src={ShopIMage} alt="" />
  <div>
-  <div className='absolute top-0 text-white mt-48'>
+  <div className='absolute top-0 text-white sm:mt-48'>
                     <button className='text-3xl ml-4 font-bold '>News Feeds</button>
                      <div className='flex gap-3 mt-4 text-xl '>
                       <h1 className='hover:text-blue-600 ml-5'> <i className="fa-solid fa-house text-[19px] text-blue-500"></i>

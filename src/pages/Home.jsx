@@ -13,7 +13,7 @@ const Home = () => {
         <div className="">
           {/* Background Image */}
           <img
-            className="h-[30rem] w-full  object-cover sm:object-center"
+            className="sm:h-[30rem] md:h-screen lg:h-screen  w-full  object-cover sm:object-center"
             src={home5}
             alt="City View"
           />

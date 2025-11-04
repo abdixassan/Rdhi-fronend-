@@ -181,7 +181,7 @@ const Home2 = () => {
       <img  className='transition-transform duration-300  object-cover w-full h-full rounded-lg hover:scale-105 opacity-100' 
       src={house2} alt="" />
       <div className='absolute top-0 mt-2'>
-       <button className='  py-1 px-5 rounded-lg bg-blue-500 text-white ' > Quality Control</button>
+       <button className='  py-1 px-5 rounded-lg bg-blue-500 text-white'>Quality Control</button>
         <i className="fa-solid fa-heart text-red-400 ml-20 text-xl"></i>
         </div>
       </div>

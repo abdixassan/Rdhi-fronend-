@@ -23,9 +23,11 @@ const Home = () => {
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
-            className="absolute inset-x-0 bottom-0 flex justify-center"
+            className="sm:absolute sm:ml-[50%] sm:bottom-0 sm:flex sm:justify-center
+               md:absolute md:ml-[50%] md:bottom-0 md:flex md:justify-center
+               lg:absolute lg:ml-[50%] lg:bottom-0 lg:flex lg:justify-center "
           >
-            <div className="flex flex-wrap justify-center bg-gray-300 shadow-xl w-full max-w-[60rem] p-4 rounded-lg gap-4 mb-6">
+            <div className="flex flex-wrap justify-center bg-gray-300 shadow-xl w-full sm:max-w-[60rem] p-4 rounded-lg gap-4 mb-6">
               <motion.select
                 // whileHover={{ scale: 1.05 }}
                 className="bg-blue-500 rounded-lg p-3 outline-none text-white flex-1 min-w-[10rem]"

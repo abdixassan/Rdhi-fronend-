@@ -58,7 +58,7 @@ const Ongoingproject = () => {
                   return    <div className=' mt-7   rounded-lg  h-auto  p-7 shadow-2xl bg-slate-100 sm:hover:shadow-blue-600 transition-transform duration-300'>
              <div className='flex flex-wrap sm:flex-row flex-col  gap-4'>
             <img className='w-52 h-40 rounded-lg' src={`https://rdhi-backend-2.onrender.com/Allimage/${item.prImage}`} alt="" />                
-            <div>
+            <div> 
            <h1 className='font-bold text-xl text-blue-600'>Ongoing project</h1>
            <div className=''>
            <h1 className='sm:w-60 w-full'>

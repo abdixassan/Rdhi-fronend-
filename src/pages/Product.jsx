@@ -51,7 +51,7 @@ useEffect(() =>{
                 <h1 className='flex justify-center font-bold text-xl mt-4'>For Sale</h1>
                   <h1 className='text-center leading-relaxed max-w-2xl mx-auto mt-3 font-bold text-blue-500 text-xl'>
                     <i className="fa-solid fa-location-dot text-xl text-black"></i> {item.location}</h1>
-                   <div className='flex justify-center'>
+                   <div className='flex justify-center'> 
                     <h1 className='flex justify-center font-bold text-xl mt-4'>
                      {item.Announcement}</h1>
                     

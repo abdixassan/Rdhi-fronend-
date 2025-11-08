@@ -6,7 +6,7 @@ const Foter = () => {
   return (
     <div> 
        <div className='  mt-11'>
-        <div  className=' bg-black sm:w-full sm:h-[110vh] sm:mt-10 sm:text-white absolute text-white'>
+        <div  className=' bg-black  w-full sm:mt-10 sm:text-white absolute text-white'>
             {/* a */}
             <div>  
             <div className=' sm:bg-blue-700   rounded-lg p-2  h-20 sm:text-white'>

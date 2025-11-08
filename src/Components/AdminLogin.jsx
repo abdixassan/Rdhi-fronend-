@@ -6,9 +6,8 @@ import { useNavigate } from 'react-router-dom'
 
 const AdminLogin = () => {
 
-    
         const [email  ,setemail] =useState("")
-        const [password  ,setpassaword] =useState("")
+         const [password  ,setpassaword] =useState("")
         const nafigate = useNavigate ()
 
        const handlepost = (e) =>{
@@ -16,7 +15,6 @@ const AdminLogin = () => {
           axios.post("https://rdhi-backend-2.onrender.com/login/addmin",{
           email: email,
           password:password,
-            
           }).then((res) =>{
              alert(' Successfully logged in')
             nafigate("/products/dashpot")

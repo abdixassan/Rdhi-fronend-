@@ -50,7 +50,7 @@ const [getDate , SetDate ] =useState([])
             
             return <div className="p-7">
                 <img
-                  className="rounded-xl shadow-lg w-full h-64 object-cover   transition-transform duration-300"
+                  className="rounded-xl shadow-lg w-96 h-64  object-cover  transition-transform duration-300"
                   src={`https://rdhi-backend-2.onrender.com/Allimage/${item.prImage}`}
                   alt="Ramaas Overview 1"
                 />

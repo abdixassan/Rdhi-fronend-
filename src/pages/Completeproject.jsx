@@ -10,7 +10,7 @@ const [getDate , SetDate ] =useState([])
   const handleget = () =>{
      axios.get("https://rdhi-backend-2.onrender.com/read/completeproject").then((res) =>{
        SetDate(res.data)
-       handleget()
+      
     })
   }
 
@@ -48,9 +48,9 @@ const [getDate , SetDate ] =useState([])
          {
           getDate.map((item) =>{
             
-            return <div className="p-7">
+            return <div className="p-4">
                 <img
-                  className="rounded-xl shadow-lg w-80 h-64  object-cover  transition-transform duration-300"
+                  className="rounded-xl shadow-lg sm:w-80 h-64  object-cover  transition-transform duration-300"
                   src={`https://rdhi-backend-2.onrender.com/Allimage/${item.prImage}`}
                   alt="Ramaas Overview 1"
                 />
@@ -58,7 +58,7 @@ const [getDate , SetDate ] =useState([])
                   Completed project
 
                 </h1>
-                <p className="text-gray-700 leading-relaxed w-80 text-justify">
+                <p className="text-gray-700 leading-relaxed sm:w-80 text-justify">
                  {item.Announcement}
                 </p>
               </div>

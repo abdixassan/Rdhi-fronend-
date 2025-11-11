@@ -280,7 +280,7 @@ const Home3 = () => {
 
            {/* section 3 */}
 
-<div className=' bg-gray-50 w-full shadow-lg shadow-inherit mt-24'>
+<div className=' w-full shadow-lg shadow-inherit mt-24'>
     <div className='flex  justify-center flex-wrap'>
         <div className=' w-[25rem]'>
      <h1 className='font-bold text-blue-700 text-2xl'> RAMAS DREAM HOMES

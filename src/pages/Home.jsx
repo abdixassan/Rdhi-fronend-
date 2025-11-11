@@ -24,7 +24,7 @@ const Home = () => {
   return (
     <div>
       <div className="">
-        <div className="">
+        <div className="relative">
           {/* Background Image */}
           <img
             className="sm:h-[30rem] md:h-screen lg:h-screen  w-full  object-cover sm:object-center"

@@ -1,24 +1,10 @@
-import React, { useEffect, useState } from 'react'
-import images from "../Images/sawir 1-01.jpg"
+import images from "../Images/WhatsApp Image 2025-10-05 at 2.14.16 PM.jpeg"
+import image2 from "../Images/WhatsApp Image 2025-10-05 at 2.14.19 PM.jpeg"
 import Foter from '../Headers/Foter'
-import axios from 'axios'
+
 
 const Completeproject = () => {
-const [getDate , SetDate ] =useState([])
-
-
-  const handleget = () =>{
-     axios.get("https://rdhi-backend-2.onrender.com/read/completeproject").then((res) =>{
-       SetDate(res.data)
-      
-    })
-  }
-
- useEffect(() =>{
-  handleget()
- },[])
-
-  return (
+return (
     <div>
         {/* section one  */}
          <div className=' w-full  bg-gray-50 shadow-lg h-72 relative'>
@@ -45,27 +31,44 @@ const [getDate , SetDate ] =useState([])
 
       <div className=' flex justify-center flex-wrap gap-4'>
         {/* a */}
-         {
-          getDate.map((item) =>{
-            
-            return <div className="p-4">
+          <div className="p-4">
                 <img
-                  className="rounded-xl shadow-lg sm:w-80 h-64  object-cover  transition-transform duration-300"
-                  src={`https://rdhi-backend-2.onrender.com/Allimage/${item.prImage}`}
+                  className="rounded-xl shadow-lg sm:w-[80vh] h-64  object-cover  transition-transform duration-300"
+                  src={images}
                   alt="Ramaas Overview 1"
                 />
                 <h1 className="text-2xl md:text-3xl font-bold text-blue-700">
                   Completed project
 
                 </h1>
-                <p className="text-gray-700 leading-relaxed sm:w-80 text-justify">
-                 {item.Announcement}
+                <p className="text-gray-700 leading-relaxed sm:w-96 text-justify">
+                 Case studies or examples of notable completed projects
+                Images of projects (with permission)
+                 Brief description of each project, including project type, location, and key
+                  features
                 </p>
               </div>
 
-          })
-         }
               {/* a dhaamd  */}
+               {/* b */}
+          <div className="p-4">
+                <img
+                  className="rounded-xl shadow-lg sm:w-[80vh] h-64  object-cover  transition-transform duration-300"
+                  src={image2}
+                  alt="Ramaas Overview 1"
+                />
+                <h1 className="text-2xl md:text-3xl font-bold text-blue-700">
+                  Completed project
+
+                </h1>
+                <p className="text-gray-700 leading-relaxed sm:w-96 text-justify">
+                Showcasing Our Excellence in Real Estate Development
+
+            Explore some of our successfully completed projects that highlight RADHI’s commitment to innovation, sustainability, and quality craftsmanship. Each project reflects our dedication to creating modern, livable spaces designed for comfort, functionality, and long-term value.
+                </p>
+              </div>
+
+              {/* b dhaamd  */}
              
       </div>
 

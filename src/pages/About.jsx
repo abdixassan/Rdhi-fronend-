@@ -3,6 +3,15 @@ import AboutIMage from "../Images/house-with-lit-up-window-dark-background.jpg"
 import Aboutimg2 from "../Images/aerial-view-private-houses-with-solar-panels-roofs.jpg"
 import Aboutimg3 from "../Images/3d-rendering-house-model.jpg"
 import Aboutimg4 from "../Images/house-isolated-field.jpg"
+import munasar from "../Images/munasr-01.jpg"
+import Eng from "../Images/Eng.Daud Ahmed Adawe.jpg"
+import jabir from "../Images/jabir-01.jpg"
+import Ali from "../Images/Ali Suat Anlaş-01.jpg"
+import Abdinaac from "../Images/Abdinafac-01.jpg"
+import Omar from "../Images/Omar Ahmed-01.jpg"
+import Baohua from "../Images/Baohua-01.jpg"
+import maal from "../Images/Screenshot 2025-11-11 163110.png"
+import ramas from "../Images/rmas.png"
 import Foter from '../Headers/Foter'
 import { Link } from 'react-router-dom'
 
@@ -170,6 +179,120 @@ const About = () => {
   
 
    </div>
+   
+   <div>
+
+    <section className="py-10">
+  {/* Title */}
+  <div className="text-center px-4 mb-6">
+    <h1 className="text-2xl md:text-3xl font-bold text-blue-700">Management</h1>
+    <p className="text-gray-600 mt-2 max-w-3xl mx-auto">
+    At RAMAS DREAM HOMES INTERNATIONAL (RDHI) is led by an able and very experienced management team with vast experience
+    </p>
+  </div>
+
+  {/* Cards wrapper */}
+  <div className="max-w-6xl mx-auto px-4">
+    {/* Two columns on large screens, stacked on mobile */}
+    <div className="flex flex-col lg:flex-row gap-6">
+
+      {/* Column 1 */}
+      <div className="flex-1 space-y-4 text-blue-600">
+        {/* card 1 */}
+        <div className="bg-gray-100 rounded-lg w-full p-3 flex items-center gap-3
+                        shadow transition duration-300 ease-out
+                        hover:-translate-y-1 hover:shadow-lg">
+          <img className="w-16 h-16 rounded-lg object-cover" src={munasar} alt="" />
+          <div>
+            <h3 className="font-semibold">Dr. Munassar Isse Abdullahi</h3>
+            <p className="text-gray-600">Chairman</p>
+          </div>
+        </div>
+
+        {/* card 2 */}
+        <div className="bg-gray-100 rounded-lg w-full p-3 flex items-center gap-3
+                        shadow transition duration-300 ease-out
+                        hover:-translate-y-1 hover:shadow-lg">
+          <img className="w-16 h-16 rounded-lg object-cover" src={Eng} alt="" />
+          <div>
+            <h3 className="font-semibold">Eng. Daud Ahmed Adawe</h3>
+            <p className="text-gray-600">Chief Executive Officer</p>
+          </div>
+        </div>
+
+        {/* card 3 */}
+        <div className="bg-gray-100 rounded-lg w-full p-3 flex items-center gap-3
+                        shadow transition duration-300 ease-out
+                        hover:-translate-y-1 hover:shadow-lg">
+          <img className="w-16 h-16 rounded-lg object-cover" src={jabir} alt="" />
+          <div>
+            <h3 className="font-semibold">Jaabir Mohamed Abdulkadir</h3>
+            <p className="text-gray-600">Operation Manager</p>
+          </div>
+        </div>
+
+        {/* card 4 */}
+        <div className="bg-gray-100 rounded-lg w-full p-3 flex items-center gap-3
+                        shadow transition duration-300 ease-out
+                        hover:-translate-y-1 hover:shadow-lg">
+          <img className="w-16 h-16 rounded-lg object-cover" src={Ali} alt="" />
+          <div>
+            <h3 className="font-semibold">Ali Suat Anlaş</h3>
+            <p className="text-gray-600">Chief Engineer / Head of Design</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Column 2 */}
+      <div className="flex-1 space-y-4 text-blue-600">
+        {/* card 5 */}
+        <div className="bg-gray-100 rounded-lg w-full p-3 flex items-center gap-3
+                        shadow transition duration-300 ease-out
+                        hover:-translate-y-1 hover:shadow-lg">
+          <img className="w-16 h-16 rounded-lg object-cover" src={Abdinaac} alt="" />
+          <div>
+            <h3 className="font-semibold">Abdinafa Dahir Yusuf</h3>
+            <p className="text-gray-600">Risk and Compliance Manager</p>
+          </div>
+        </div>
+
+        {/* card 6 */}
+        <div className="bg-gray-100 rounded-lg w-full p-3 flex items-center gap-3
+                        shadow transition duration-300 ease-out
+                        hover:-translate-y-1 hover:shadow-lg">
+          <img className="w-16 h-16 rounded-lg object-cover" src={Omar} alt="" />
+          <div>
+            <h3 className="font-semibold">Eng. Omar Ahmed Ikar</h3>
+            <p className="text-gray-600">Engineer</p>
+          </div>
+        </div>
+
+        {/* card 7 */}
+        <div className="bg-gray-100 rounded-lg w-full p-3 flex items-center gap-3
+                        shadow transition duration-300 ease-out
+                        hover:-translate-y-1 hover:shadow-lg">
+          <img className="w-16 h-16 rounded-lg object-cover" src={Baohua} alt="" />
+          <div>
+            <h3 className="font-semibold">Eng. Zuo Baohua</h3>
+            <p className="text-gray-600">Architecture</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+   </div>
+   {/* section our partinrers  */}
+  <div className="text-center px-4 mb-6">
+    <h1 className="text-2xl md:text-3xl font-bold text-blue-700">our partners</h1>
+  </div>
+
+  <div className=' flex justify-center flex-wrap  gap-12 bg-gray-50 w-full h-40'>
+    <img className='w-60 rounded-lg h-28 object-cover mt-5' src={maal} alt="" />
+    <img  className='w-80 rounded-lg h-28 object-cover mt-5'  src={ramas} alt="" />
+  </div>
+
             <Foter/>
     </div>
   )

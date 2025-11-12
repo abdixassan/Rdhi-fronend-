@@ -5,7 +5,7 @@ import Home3 from "./Home3";
 import home5 from "../Images/urban-city-architecture.jpg"
 import home6 from "../Images/view-udaipur-city-from-city-palace-rajasthan-india.jpg"
 import home7 from "../Images/outdoor-summer-brightly-cumulonimbus-scene-climate.jpg"
-import home8 from "../Images/modern-tokyo-street-background.jpg"
+import home8 from "../Images/toko.png"
 import {Link } from "react-router-dom"
 import Foter from "../Headers/Foter";
 

@@ -13,7 +13,7 @@ import Baohua from "../Images/Baohua-01.jpg"
 import maal from "../Images/Screenshot 2025-11-11 163110.png"
 import ramas from "../Images/rmas.png"
 import Foter from '../Headers/Foter'
-import { Link } from 'react-router-dom'
+
 
 const About = () => {
   return (

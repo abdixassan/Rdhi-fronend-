@@ -4,7 +4,7 @@ import Aboutimg2 from "../Images/aerial-view-private-houses-with-solar-panels-ro
 import Aboutimg3 from "../Images/3d-rendering-house-model.jpg"
 import Aboutimg4 from "../Images/house-isolated-field.jpg"
 import munasar from "../Images/munasr-01.jpg"
-import Eng from "../Images/Eng.Daud Ahmed Adawe.jpg"
+import Eng from "../Images/daud.png"
 import jabir from "../Images/jabir-01.jpg"
 import Ali from "../Images/Ali Suat Anlaş-01.jpg"
 import Abdinaac from "../Images/Abdinafac-01.jpg"

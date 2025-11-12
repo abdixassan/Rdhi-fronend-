@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import Dashpot from '../Components/Dashpot'
-import outserver2 from "../Images/WhatsApp Image 2025-09-25 at 12.06.37 AM (1).jpeg"
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
 const Costomer = () => {

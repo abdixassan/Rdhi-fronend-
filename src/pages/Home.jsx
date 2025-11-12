@@ -5,12 +5,13 @@ import Home3 from "./Home3";
 import home5 from "../Images/urban-city-architecture.jpg"
 import home6 from "../Images/view-udaipur-city-from-city-palace-rajasthan-india.jpg"
 import home7 from "../Images/outdoor-summer-brightly-cumulonimbus-scene-climate.jpg"
+import home8 from "../Images/modern-tokyo-street-background.jpg"
 import {Link } from "react-router-dom"
 import Foter from "../Headers/Foter";
 
 const Home = () => {
 
-    const images = [home5, home6 ,home7];
+    const images = [home8,home5, home6 ,home7];
     const [current, setCurrent] = useState(0);
     
       useEffect(() => {
@@ -27,7 +28,7 @@ const Home = () => {
         <div className="relative">
           {/* Background Image */}
           <img
-            className="sm:h-[30rem] md:h-screen lg:h-screen  w-full  object-cover sm:object-center"
+            className="sm:h-[28rem]  lg:h-[30rem]    w-full  object-cover sm:object-center"
             src={images[current]}
             alt="City View"
           />

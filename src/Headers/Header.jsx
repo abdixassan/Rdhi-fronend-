@@ -15,7 +15,7 @@ const Header = () => {
   return (
     <div className="relative">
       {/* Desktop Header */}
-      <div className=' shadow-lg  h-16 flex justify-between items-center px-4'>
+      <div className=' shadow-lg  h-20  text-[18px]  flex justify-between items-center px-4'>
         {/* Logo */}
         <Link to="/">
           <img className='w-16 h-16 object-contain' src={logo} alt="logo" />
@@ -32,10 +32,10 @@ const Header = () => {
           {/* homes */}
 
           {/* abut bages  */}
-           <div className='group relative cursor-pointer'>
+           <div className='group   sm:pl-5  relative cursor-pointer'>
             About +
-            <div className='absolute left-0 top-full hidden group-hover:block bg-slate-50 border mt-1 p-3 w-48'>
-              <Link to="/completeproject"><p className='py-1 hover:text-blue-500'>completed project</p></Link>
+            <div className='absolute  left-0 top-full hidden group-hover:block bg-slate-50 border mt-1 p-3 w-60'>
+              <Link to="/completeproject"><p className='py-1 hover:text-blue-500'>Completed project</p></Link>
               <Link to="/Ongoingproject"><p className='py-1 hover:text-blue-500'>Ongoing project</p></Link>
               <Link to="/about"><p className='py-1 hover:text-blue-500'>About Us RDHI</p></Link>
               <Link to="/AdminLogin"><p className='py-1 hover:text-blue-500'>Admin Login</p></Link>
@@ -43,11 +43,11 @@ const Header = () => {
           </div>
           {/* about  */}
           {/* shop */}
-            <div className='group relative cursor-pointer '>
+            <div className='group relative cursor-pointer  pl-4'>
             Blog +
-            <div className='absolute left-0 top-full hidden group-hover:block bg-slate-50 border mt-1 p-3 w-48'>
+            <div className='absolute left-0 top-full hidden group-hover:block bg-slate-50 border mt-1 p-3 w-60'>
               <Link to="/shop"><p className='py-1 hover:text-blue-500'>Blog</p></Link>
-              <Link to="/futures"><p className='py-1 hover:text-blue-500'>Features Planning</p></Link>
+              <Link to="/futures"><p className=' hover:text-blue-500'>Features Planning</p></Link>
               
               </div>
           </div>
@@ -55,7 +55,7 @@ const Header = () => {
           <Link to="/product"><h1>properties</h1></Link>
           <Link to="/contact"> <h1>Contact</h1> </Link>
           {/* service */}
-           <div className='group relative cursor-pointer'>
+           <div className='group relative cursor-pointer pl-3'>
             Services +
             <div className='absolute left-0 top-full hidden group-hover:block bg-slate-50 border mt-1 p-3 w-48'>
               <Link to="/ourservice"><p className='py-1 hover:text-blue-500'>Our-product</p></Link>

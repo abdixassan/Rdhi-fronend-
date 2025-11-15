@@ -33,7 +33,7 @@ const Header = () => {
 
           {/* abut bages  */}
            <div className='group   sm:pl-5  relative cursor-pointer'>
-            About +
+            About <span className=''> +</span>
             <div className='absolute  left-0 top-full hidden group-hover:block bg-slate-50 border mt-1 p-3 w-60'>
               <Link to="/completeproject"><p className='py-1 hover:text-blue-500'>Completed project</p></Link>
               <Link to="/Ongoingproject"><p className='py-1 hover:text-blue-500'>Ongoing project</p></Link>

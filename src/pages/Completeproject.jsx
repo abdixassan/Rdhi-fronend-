@@ -1,5 +1,5 @@
-import images from "../Images/WhatsApp Image 2025-10-05 at 2.14.16 PM.jpeg"
-import image2 from "../Images/WhatsApp Image 2025-10-05 at 2.14.19 PM.jpeg"
+import images from "../Images/munaaaa .png"
+import image2 from "../Images/munaa 2.jpg"
 import Foter from '../Headers/Foter'
 
 

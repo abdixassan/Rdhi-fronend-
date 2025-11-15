@@ -4,12 +4,15 @@ import Home2 from "./Home2";
 import Home3 from "./Home3";
 import home5 from "../ImagesCompressed/urban-city-architecture.jpg"
 import home7 from "../ImagesCompressed/outdoor-summer-brightly-cumulonimbus-scene-climate.jpg"
+import home8 from "../ImagesCompressed/view-land-plot-real-estate-business-development (1).jpg"
+import home9 from "../ImagesCompressed/set-designer-work-indoors.jpg"
+import home10 from "../ImagesCompressed/pattaya-city.jpg"
 import {Link } from "react-router-dom"
 import Foter from "../Headers/Foter";
 
 const Home = () => {
 
-    const images = [home5,home7];
+    const images = [home5,home7,home8,home9,home10];
     const [current, setCurrent] = useState(0);
     
       useEffect(() => {

@@ -1,5 +1,5 @@
-import images from "../Images/munaaaa .png"
-import image2 from "../Images/munaa 2.jpg"
+import images from "../ImagesCompressed/munaaaa .png"
+import image2 from "../ImagesCompressed/munaa 2.jpg"
 import Foter from '../Headers/Foter'
 
 

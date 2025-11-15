@@ -1,8 +1,7 @@
 import React from 'react'
-import ShopIMage from "../Images/house-with-lit-up-window-dark-background.jpg"
-import cont1 from "../Images/10.png"
-import cont2 from "../Images/11.png"
-import cont3 from "../Images/12.png"
+import cont1 from "../ImagesCompressed/10.png"
+import cont2 from "../ImagesCompressed/11.png"
+import cont3 from "../ImagesCompressed/12.png"
 import Foter from '../Headers/Foter'
 
 const Contact = () => {

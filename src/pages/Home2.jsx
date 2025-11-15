@@ -1,14 +1,14 @@
 import React from 'react'
-import images from "../Images/sawir 1-01.jpg"
-import tech from "../Images/TechnoA2.png"
-import imge from "../Images/sawiraka 2ad-01.jpg"
-import house  from "../Images/house-isolated-field.jpg"
-import house2  from "../Images/4272148.jpg"
-import tous1  from "../Images/21.png"
-import tous2  from "../Images/22.png"
-import tous3 from "../Images/23.png"
-import house3  from "../Images/logo_make_11_06_2023_8.jpg"
-import house4  from "../Images/3d-rendering-house-model.jpg"
+import images from "../ImagesCompressed/sawir 1-01.jpg"
+import tech from "../ImagesCompressed/TechnoA2.png"
+import imge from "../ImagesCompressed/sawiraka 2ad-01.jpg"
+import house  from "../ImagesCompressed/house-isolated-field.jpg"
+import house2  from "../ImagesCompressed/4272148.jpg"
+import tous1  from "../ImagesCompressed/21.png"
+import tous2  from "../ImagesCompressed/22.png"
+import tous3 from "../ImagesCompressed/23.png"
+import house3  from "../ImagesCompressed/logo_make_11_06_2023_8.jpg"
+import house4  from "../ImagesCompressed/3d-rendering-house-model.jpg"
 import { motion } from "framer-motion";
 
 const Home2 = () => {

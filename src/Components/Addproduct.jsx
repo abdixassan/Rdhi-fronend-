@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Dashpot from '../Components/Dashpot'
-import imge from "../Images/3d-rendering-house-model.jpg"
+import imge from "../ImagesCompressed/3d-rendering-house-model.jpg"
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
 

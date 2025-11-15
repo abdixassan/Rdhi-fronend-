@@ -1,6 +1,4 @@
 import React from 'react'
-import outserver4 from "../Images/sawiraka 2ad-01.jpg"
-import Foter from '../Headers/Foter'
 import Dashpot from '../Components/Dashpot'
 import { useState } from 'react'
 import axios from 'axios'

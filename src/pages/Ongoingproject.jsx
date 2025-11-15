@@ -3,8 +3,8 @@ import React from 'react'
 import { useEffect } from 'react'
 import { useState } from 'react'
 import Foter from '../Headers/Foter'
-import image1 from "../Images/beautiful-landscape-contained-photo-frame.jpg"
-import image2 from "../Images/aerial-view-private-houses-with-solar-panels-roofs.jpg"
+import image1 from "../ImagesCompressed/beautiful-landscape-contained-photo-frame.jpg"
+import image2 from "../ImagesCompressed/aerial-view-private-houses-with-solar-panels-roofs.jpg"
 
 
 const Ongoingproject = () => {

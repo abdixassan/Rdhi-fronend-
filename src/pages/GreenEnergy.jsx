@@ -1,10 +1,10 @@
 import React from 'react'
-import AboutIMage from "../Images/medium-shot-engineers-talking-outdoors.jpg"
-import AboutIMage2 from "../Images/details-nnn.jpg"
+import AboutIMage from "../ImagesCompressed/medium-shot-engineers-talking-outdoors.jpg"
+import AboutIMage2 from "../ImagesCompressed/details-nnn.jpg"
 import { motion } from "framer-motion";
-import tous2  from "../Images/3459689.jpg"
-import tous3  from "../Images/3d-windmill-project-saving-energy.jpg"
-import tous4  from "../Images/3d-render-robot-holding-solar-panel-grassy-glboe.jpg"
+import tous2  from "../ImagesCompressed/3459689.jpg"
+import tous3  from "../ImagesCompressed/3d-windmill-project-saving-energy.jpg"
+import tous4  from "../ImagesCompressed/3d-render-robot-holding-solar-panel-grassy-glboe.jpg"
 import Foter from "../Headers/Foter"
 
 

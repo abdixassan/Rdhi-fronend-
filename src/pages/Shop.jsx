@@ -1,10 +1,10 @@
 import React from 'react'
-import ShopIMage from "../Images/house-with-lit-up-window-dark-background.jpg"
-import outserver1 from "../Images/Screenshot 2025-09-24 104141.jpg"
-import outserver3 from "../Images/buildings-edge-river.jpg"
-import outserver4 from "../Images/sawiraka 2ad-01.jpg"
+import ShopIMage from "../ImagesCompressed/house-with-lit-up-window-dark-background.jpg"
+import outserver1 from "../ImagesCompressed/Screenshot 2025-09-24 104141.jpg"
+import outserver3 from "../ImagesCompressed/buildings-edge-river.jpg"
+import outserver4 from "../ImagesCompressed/sawiraka 2ad-01.jpg"
  
-import Aboutimg3 from "../Images/3d-rendering-house-model.jpg"
+import Aboutimg3 from "../ImagesCompressed/3d-rendering-house-model.jpg"
 
 import Foter from "../Headers/Foter";
 import { Link } from 'react-router-dom'

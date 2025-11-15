@@ -1,6 +1,6 @@
 import React from 'react'
 // import ShopIMage from "../Images/house-with-lit-up-window-dark-background.jpg"
-import Aboutimg3 from "../Images/3d-rendering-house-model.jpg"
+import Aboutimg3 from "../ImagesCompressed/3d-rendering-house-model.jpg"
 import Foter from '../Headers/Foter'
 
 

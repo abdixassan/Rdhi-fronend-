@@ -1,6 +1,6 @@
 import React from 'react'
-import logo from "../Images/yu ali-01.png"
-import logo1 from "../Images/Screenshot 2025-09-21 114751.png"
+import logo from "../ImagesCompressed/yu ali-01.png"
+import logo1 from "../ImagesCompressed/Screenshot 2025-09-21 114751.png"
 import { Link } from 'react-router-dom'
 const Foter = () => {
   return (

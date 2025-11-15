@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import cont1 from "../Images/3d-rendering-house-model.jpg"
 import Foter from "../Headers/Foter"
 import axios from "axios";
 import { Link } from 'react-router-dom';

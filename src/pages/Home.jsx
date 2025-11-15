@@ -2,16 +2,14 @@ import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Home2 from "./Home2";
 import Home3 from "./Home3";
-import home5 from "../Images/urban-city-architecture.jpg"
-import home6 from "../Images/view-udaipur-city-from-city-palace-rajasthan-india.jpg"
-import home7 from "../Images/outdoor-summer-brightly-cumulonimbus-scene-climate.jpg"
-import home8 from "../Images/toko.png"
+import home5 from "../ImagesCompressed/urban-city-architecture.jpg"
+import home7 from "../ImagesCompressed/outdoor-summer-brightly-cumulonimbus-scene-climate.jpg"
 import {Link } from "react-router-dom"
 import Foter from "../Headers/Foter";
 
 const Home = () => {
 
-    const images = [home8,home5, home6 ,home7];
+    const images = [home5,home7];
     const [current, setCurrent] = useState(0);
     
       useEffect(() => {

@@ -1,10 +1,10 @@
 import React from 'react'
-import outserver from "../Images/Screenshot 2025-09-27 153156.png"
-import outserver1 from "../Images/Screenshot 2025-09-24 104141.jpg"
-import outserver2 from "../Images/outdoor-summer-brightly-cumulonimbus-scene-climate.jpg"
-import AboutIMage from "../Images/house-with-lit-up-window-dark-background.jpg"
-import outserver3 from "../Images/buildings-edge-river.jpg"
-import outserver4 from "../Images/sawiraka 2ad-01.jpg"
+import outserver from "../ImagesCompressed/Screenshot 2025-09-27 153156.png"
+import outserver1 from "../ImagesCompressed/Screenshot 2025-09-24 104141.jpg"
+import outserver2 from "../ImagesCompressed/outdoor-summer-brightly-cumulonimbus-scene-climate.jpg"
+import AboutIMage from "../ImagesCompressed/house-with-lit-up-window-dark-background.jpg"
+import outserver3 from "../ImagesCompressed/buildings-edge-river.jpg"
+import outserver4 from "../ImagesCompressed/sawiraka 2ad-01.jpg"
 import Foter from '../Headers/Foter'
 
 const Ourservice = () => {

@@ -34,7 +34,7 @@ const About = () => {
        </div>
        </div>
        {/* secton one dhamaad */}
-       <div className='bg-white shadow-lg  opacity-90 mt-9 p-2 '>
+       <div className=' shadow-lg  opacity-90 mt-9 p-2 '>
              <div className=' flex justify-center gap-3 flex-wrap'>
               <div>
                  <img className='w-[27rem] rounded-lg h-96 object-cover mt-16' src={Aboutimg2} alt="" />

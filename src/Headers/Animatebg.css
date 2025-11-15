@@ -6,7 +6,7 @@
   height: 100%;
   z-index: -10;
   overflow: hidden;
-  background: radial-gradient( rgba(246, 247, 248, 0.5), rgb(95, 198, 145),rgb(3, 27, 14));
+  background: radial-gradient( rgba(246, 247, 248, 0.5), rgb(95, 198, 145),rgb(3, 27, 14) );
 }
 
 /* Particles */

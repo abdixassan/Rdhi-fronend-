@@ -11,13 +11,17 @@ if (!fs.existsSync(outputFolder)) {
   fs.mkdirSync(outputFolder);
 }
 
-const files = fs.readdirSync(inputFolder);
+const compressImages = async () => {
+  const files = fs.readdirSync(inputFolder);
 
-for (const file of files) {
-  const ext = path.extname(file).toLowerCase();
-  if (ext === ".png" || ext === ".jpg" || ext === ".jpeg") {
-    const source = tinify.fromFile(path.join(inputFolder, file));
-    await source.toFile(path.join(outputFolder, file));
-    console.log(`Compressed: ${file}`);
+  for (const file of files) {
+    const ext = path.extname(file).toLowerCase();
+    if (ext === ".png" || ext === ".jpg" || ext === ".jpeg") {
+      const source = tinify.fromFile(path.join(inputFolder, file));
+      await source.toFile(path.join(outputFolder, file));
+      console.log(`Compressed: ${file}`);
+    }
   }
-}
+};
+
+compressImages().catch(err => console.error(err));

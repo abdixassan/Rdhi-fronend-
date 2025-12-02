@@ -15,7 +15,7 @@ const Header = () => {
   return (
     <div className="relative">
       {/* Desktop Header */}
-      <div className=' shadow-lg  h-20  text-[18px]  flex justify-between items-center px-4'>
+      <div className=' shadow-lg  h-20  text-[18px]  flex justify-between items-center px-4 bg-white bg-opacity-70 '>
         {/* Logo */}
         <Link to="/">
           <img className='w-16 h-16 object-contain' src={logo} alt="logo" />

@@ -26,7 +26,7 @@ const Header = () => {
           {/* homes */}
           <div >
             <Link to="/">
-            Home 
+              Home 
             </Link>
           </div>
           {/* homes */}
